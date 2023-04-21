@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- start quiz btn -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <!-- info box -->
+
+    <div class="info_box">
+      <div class="info_title">
+        <span>Ushbu viktorinaning ba'zi qoidalari</span>
+      </div>
+      <div class="info_list">
+        <h1 class="info">
+          1. Har bir savol uchun atiga <span>15 second</span> vaqtingiz bo'ladi.
+        </h1>
+        <h1 class="info">
+          2. Javobingizni tanlaganingizdan keyin qayta tanlay olmaysiz.
+        </h1>
+        <h1 class="info">
+          3. Vaqt tugashi bilan hech qanday variantni tanlay olmaysiz.
+        </h1>
+        <h1 class="info">
+          4. Siz Javob berayotganingizda <span> Viktorinadan</span> chiqa
+          olmaysiz.
+        </h1>
+        <h1 class="info">5. To'g'ri javoblaringiz asosida bal olasiz.</h1>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+      </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+      <header>
+        <div class="title">Awesome Quiz Application</div>
+        <div class="timer">
+          <div class="timer_text">Time Left</div>
+          <div class="timer_sec">15</div>
+          <div class="time_line"></div>
+        </div>
+      </header>
+      <section>
+        <div class="que_text">
+          <!-- <span>What does HTML stand for?</span> -->
+        </div>
+        <div class="option_list">
+          <!-- <div class="option">
+            <span>Hyper Text Preprocessor</span>
+            <div class="icon tick">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="option">
+            <span>Hyper Text Markup Language</span>
+            <div class="icon cross">
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+          </div>
+          <div class="option">
+            <span>Hyper Text Multiple Language</span>
+          </div>
+          <div class="option">
+            <span>Hyper Tool Multi Language</span>
+          </div>
+        </div> -->
+      </section>
+      <!-- Quiz Box Footer -->
+      <footer>
+        <div class="total_que">
+          <!-- <span
+            ><p>2</p>
+            of
+            <p>5</p>
+            Questions
+          </span> -->
+        </div>
+        <button class="next_btn">Next Que</button>
+      </footer>
+    </div>
+    <!-- result_box start -->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fa-solid fa-crown"></i>
+      </div>
+      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="score_text">
+        <span
+          >and sorry, You got only
+          <p>2</p>
+          out of
+          <p>5</p></span
+        >
+      </div>
+      <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/question.js"></script>
+  </body>
+</html>
